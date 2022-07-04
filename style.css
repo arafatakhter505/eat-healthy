@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    display: flex;
+    margin: 100px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+}
+.base-color{
+    color: orange;
+}
+.btn{
+    text-decoration: none;
+    background-color: #FD4E30;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+.top-banner h1{
+    font-size: 50px;
+}
+.top-banner p{
+    padding-bottom: 50px;
+}
+.about{
+    display: flex;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 100px 0 200px;
+}
+.about .half-width p{
+    padding: 30px 0 50px 0;
+}
+.about img{
+    width: 60%;
+}
+.about-text{
+    margin: auto 0;
+}
+.recipies{
+    margin: 100px;
+    text-align: center;
+}
+.recipies .mp{
+    margin: 0 300px;
+}
+.recipies-item-area{
+    display: flex;
+}
+.recipies-item{
+    width: 50%;
+    box-shadow: 0px 0px 10px grey;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 30px;
+    text-align: left;
+}
+.recipies-item img{
+    width: 100%;
+}
+.social{
+    display: flex;
+    margin: 100px;
+    padding: 60px 50px;
+    box-shadow: 0 0 10px grey;
+    border-radius: 20px;
+}
+.social-item{
+    width: 33%;
+    font-size: 25px;
+    text-align: center;
+}
+.social-item h2{
+    margin: 0;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
